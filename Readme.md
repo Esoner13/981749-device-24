@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Герман Гизбрехт](https://up.htmlacademy.ru/htmlcss/24/user/981749).
-* Наставник: [ Владислав Молчанов ](https://htmlacademy.ru/profile/id137398).
+* Наставник: [Владислав Молчанов](https://htmlacademy.ru/profile/id137398).
 
 ---
 
