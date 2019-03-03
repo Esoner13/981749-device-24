@@ -1,0 +1,184 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("gilroylight.woff2") format("woff2"),
+       url("gilroylight.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroyextrabold";
+  src: url("gilroyextrabold.woff2") format("woff2"),
+       url("gilroyextrabold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+header{
+  background-image: url("img/fon.png");
+}
+header.site-navigation{
+  font-family: "Gilroyextrabold",Tahoma, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  background-color:#f7e296;
+}
+header.enter,
+header.compare,
+header.basket{
+  font-family: "Opensans",Arial, sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  color: #000000;
+  background-color:#f7e296;
+}
+a {
+  text-decoration: none;
+}
+
+main p{
+  font-family: "Opensans",Arial, sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  color: #000000;
+  background-color:#ffffff;
+}
+
+main h2{
+  font-family: "Gilroyextrabold",Tahoma, sans-serif;
+  font-size: 47px;
+  line-height: 48px;
+  color: #000000;
+  background-color:#ffffff;
+}
+.crossedout-text{
+  font-family: "Gilroyextrabold",Tahoma,sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  background-color:#ffffff;
+  text-decoration: uppercase;
+  }
+  .crossedout-text::after{
+    content: hr;
+    align: center ;
+    width: 25px;
+    size: 18px;
+    color: #f0c52e;
+    bottom:10px;
+  }
+ footer.site-navigation{
+    font-family: "Gilroyextrabold",Tahoma,sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    background-color:#464646;
+  }
+  footer.enter,
+  footer.compare,
+  footer.basket{
+    font-family: "Opensans",Arial, sans-serif;
+    font-size: 15px;
+    line-height: 36px;
+    color: #ffffff;
+    background-color:#464646;
+  }
+  footer p{
+    font-family: "Opensans",Arial, sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    color: #ffffff;
+    background-color:#464646;
+  }
+  .social-button{
+    background-color: #7e7e7e;
+    background-image:
+  }
+  footer{
+    background-color: #464646;
+  }
+  .page-title{
+  font-family: "Gilroyextrabold",Tahoma,sans-serif;
+  font-size: 47px;
+  line-height: 48px;
+  color: #000000;
+  background-color:#ffffff;
+  }
+ .breadcrumbs{
+   font-family: "Opensans",Arial, sans-serif;
+   list-style: none;
+
+   color: #e0e0e0;
+   background-color:#ffffff
+    }
+  .breadcrumbs a:hover,
+  .breadcrumbs a:focus{
+    text-decoration: underline;
+    }
+  .filters fieldset{
+    border: none;
+    }
+  .catalog-text{
+    font-family: "Gilroyextrabold",Tahoma,sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    background-color:#eeeeee;
+  }
+  .filters li{
+    font-family: "Opensans",Arial, sans-serif;
+    font-size: 14px;
+    line-height: 40px;
+    color: #000000;
+    background-color:#eeeeee;
+    }
+  .monopods{
+    list-style: none;
+  }
+  .monopods-item{
+    background-color:#eeeeee;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+   .monopods-item:hover,
+   .monopods-item:focus,{
+     box-shadow: 0 0 10px rgba(0,0,0,0.2);
+   }
+   .monopods h3{
+     font-family: "Gilroyextrabold",Tahoma,sans-serif;
+     font-size: 18px;
+     line-height: 24px;
+     color: #000000;
+     background-color:#ffffff;
+   }
+   .monopods-item-price{
+     font-family: "Gilroy",Tahoma,sans-serif;
+     font-size: 16px;
+     line-height: 24px;
+     color: #b5b5b5;
+     background-color:#ffffff;
+   }
+   .filter-checkbox{
+     position: absolute;
+     -webkit-appearance:none;
+     appearance:none;
+   }
+   .checkbox{
+     position: absolute;
+     margin-left: -1.2em;
+     background-image: url(img/checkbox-off.svg);
+     }
+     .filter-checkbox:checked + .checkbox{
+       background-image: url(img/checkbox-on.svg);
+     }
+     .filter-radio{
+       position: absolute;
+       -webkit-appearance:none;
+       appearance:none;
+     }
+     .radio{
+       position: absolute;
+       margin-left: -1.2em;
+       background-image: url(img/radio-off.svg);
+       }
+       .filter-radio:checked + .radio{
+         background-image: url(img/radio-on.svg);
+       }
